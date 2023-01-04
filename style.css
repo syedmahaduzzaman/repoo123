@@ -1,0 +1,175 @@
+[19:12, 1/2/2023] Hasnain Saylani: * {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container {
+    width: 98%;
+    margin: auto;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  .log {
+    width: 20%;
+  }
+  
+  .youtube {
+    margin: 0px 50px;
+  }
+  .glyphicon {
+    font-size: 20px;
+    color: #555555;
+    float: left;
+  }
+  .serchbox {
+    width: 50%;
+    display: flex;
+  }
+  .serch {
+    width: 90%;
+  }
+  .serch input {
+    width: 90%;
+    padding: 8px 15px;
+    border-radius: 35px;
+    border-radius: 32px 0px 0px 32px;
+    border: 0.5px solid #999999;
+    float: left;
+    outline-color: blue;
+  }
+  .serch .fa {
+    border: 0.1px solid #999999;
+    font-size: 16px;
+    border-left: none;
+    color: #555555;
+    border-radius: 0px 32px 32px 0px;
+    padding: 10px 20px;
+    background-color: #f8f5f5;
+    transition: all 0.5s linear;
+  }
+  
+  .mic,
+  .notification,
+  .live {
+    padding: 5px 5px;
+    margin-top: 3px;
+    margin-left: 10px;
+    /* border: 2px solid red; */
+    background-color: #f8f5f5;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s linear;
+  }
+  
+  .mic:hover {
+    background-color: #e6dddd;
+  }
+  .notification:hover {
+    background-color: #e6dddd;
+  }
+  .live:hover {
+    background-color: #e6dddd;
+  }
+  .mic .fa {
+    font-size: 17px;
+    left: 5px;
+  }
+  .profile {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .profile-img {
+    width: 8%;
+  
+    /* height: 200px; */
+    border-radius: 50%;
+  }
+  .profile img {
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .live {
+    width: 8%;
+  }
+  .live img {
+    width: 100%;
+    height: 20px;
+  }
+  .notification {
+    margin: 0px 20px;
+  }
+  
+  .left {
+    width: 15%;
+    float: left;
+  }
+  .videos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right {
+    width: 83%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .top-heading{
+      width: 100%;
+      height: 30px;
+  }
+  .top-heading img{
+      width: 100%;
+  }
+  iframe {
+    margin: 20px 0px;
+    border-radius: 8px;
+  }
+  iframe:hover{
+      
+      transform: scale(1.1,1.5); 
+      /* transform: scaleX(1.2); */
+  }
+  .list {
+    margin-top: 20px;
+    list-style-type: none;
+    min-width: 100%;
+    /* border: 2px solid red; */
+  }
+  .listitem {
+    padding: 5px;
+    margin: 8px 0px;
+    /* border: 2px solid red; */
+    width: 90%;
+    border-radius: 8px;
+    /* margin: px 0px; */
+    transition: all 0.5s linear;
+  }
+  .listitem:hover {
+    background-color: #e7dbdb;
+[19:12, 1/2/2023] Hasnain Saylani: border-radius: 5px;
+  }
+  .listitem .fa {
+    margin-right: 25px;
+    color: #555555;
+    font-size: 20px;
+  }
+  hr {
+    /* border: 0.2px solid #777777; */
+    border-radius: 5px;
+    height: 1px;
+    background: #ece7e7;
+  }
